@@ -832,7 +832,9 @@ footer {
       height: 350px;
       width: 350px;
       margin-left: 450px; 
-      top: 300px;}
+      top: 300px;
+      margin-left: 750px\9;     
+     }
 .meio1 {
   height: 650px; }
   .meio1 .conteudo1 {
@@ -924,14 +926,6 @@ footer {
             margin: 0;
             text-align: left;
             padding-left: 42px; }
-        .meio2 .conteudo12 .bloco1 ul .certo::before {
-          top: 5px;
-          position: absolute;
-          display: block;
-          width: 32px;
-          height: 32px;
-          content: '';
-          background-image: url(../../../img/certo.png); }
       .meio2 .conteudo12 .bloco1 a {
         border: 1px solid #2a7d9a;
         display: inline-block;
@@ -945,8 +939,6 @@ footer {
           color: white;
           background-color: #2a7d9a;
           border-radius: 30px; }
-      .meio2 .conteudo12 .bloco1 .pagamento {
-        color: #2a7d9a; }
   .meio2 .conteudo13 {
     margin: 0 auto;
     width: 1100px;
@@ -965,7 +957,6 @@ footer {
         color: #2a7d9a;
         background-color: white;
         border-radius: 30px; }
-
 .meio3 {
   background: url("../../../img/image2.png") center 0 no-repeat;
   background-size: cover;
@@ -989,6 +980,36 @@ footer {
       line-height: 175%;
       color: #8e8e8e;
       margin-top: 20px; }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+     .topo .conteudo .perfil {
+        margin-left: 750px;     
+     }
+     .meio2 .conteudo12 .bloco1::before {
+        margin-left: 111px;
+      }
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  /* Safari and Chrome */
+    .topo .conteudo .perfil {
+        margin-left: 750px;     
+     }
+    .meio2 .conteudo12 .bloco1::before {
+        margin-left: 111px;
+    }
+
+  /* Safari only override */
+  ::i-block-chrome,.topo .conteudo .perfil {
+        margin-left: 750px;     
+     }
+  ::i-block-chrome,.meio2 .conteudo12 .bloco1::before {
+        margin-left: 111px;
+    }
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 330px) {
   .topo {

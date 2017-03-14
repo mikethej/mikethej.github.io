@@ -187,7 +187,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family:calibri, Lato,  Arial, sans-serif;
   font-size: 1em; }
 
 /* Forms
@@ -356,8 +356,8 @@ th {
 
 html {
   font-size: 100%;
-  font-family: 'fs_sinclair', Verdana, sans-serif;
-  font-size-adjust: 0.49; }
+  font-family: calibri, Lato,  Arial, sans-serif;
+   }
 
 body {
   width: 100%;
@@ -422,14 +422,14 @@ header .main-header {
       height: 40px;
       display: inline-block;
       float: right;
-      margin-right: 80px;
-      margin-top: 20px; }
+      padding-right: 20px;
+      margin-top: 30px; }
     header .main-header-xs nav a {
       font-size: 16px;
       display: inline-block;
       color: black;
       text-decoration: none;
-      margin-top: 13px; }
+      margin-top: 8px; }
     header .main-header-xs #cv-logo {
       padding-left: 10px;
       margin-top: 13px;
@@ -488,7 +488,7 @@ header .main-header {
 html, body {
   width: 100%;
   height: 100%;
-  font-family: Lato, calibri, Arial, sans-serif; }
+  font-family: calibri, Lato,  Arial, sans-serif; }
 
 ul {
   list-style: none;
@@ -527,7 +527,7 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 330px) {
   footer {
     position: absolute;
-    top: 3985px;
+    top: 3885px;
     width: 100%;
     overflow: hidden;
     height: 350px; }
@@ -545,10 +545,28 @@ footer {
         width: 80vw;
         line-height: 25px; }}
 
-@media screen and (min-width: 331px) and (max-width: 600px) {
+@media screen and (min-width: 331px) and (max-width: 463px) {
   footer {
     position: absolute;
-    top: 3965px;
+    top: 3915px;
+    width: 100%;
+    overflow: hidden;
+    height: 450px; }
+    footer .foot {
+      width: 100%;
+      margin: 0 auto;
+      display: block; }
+      footer .foot #cv-footer {
+        width: 80vw;
+        max-width: 300px; }
+      footer .foot p {
+        width: 80%;
+        margin: 20px auto;
+        line-height: 25px; }}
+@media screen and (min-width: 464px) and (max-width: 600px) {
+  footer {
+    position: absolute;
+    top: 3530px;
     width: 100%;
     overflow: hidden;
     height: 450px; }
@@ -567,7 +585,7 @@ footer {
 @media screen and (min-width: 601px) and (max-width: 727px) {
   footer {
     position: absolute;
-    top: 3700px;
+    top: 3500px;
     width: 100%;
     overflow: hidden;
     height: 450px; }
@@ -605,7 +623,7 @@ footer {
 @media screen and (min-width: 931px) and (max-width: 1093px) {
   footer {
     position: absolute;
-    top: 3050px;
+    top: 3000px;
     width: 100%;
     overflow: hidden;
     height: 450px; }
@@ -624,7 +642,7 @@ footer {
 @media screen and (min-width: 1094px) and (max-width: 1200px) {
   footer {
     position: absolute;
-    top: 2650px;
+    top: 2500px;
     width: 100%;
     overflow: hidden;
     height: 450px; }
@@ -785,12 +803,11 @@ footer {
     margin: 0 auto;
     width: 650px; }
     .topo .conteudo #main-cv {
-      margin-left: 150px; }
+      margin-left: 150px;}
     .topo .conteudo #texto1 {
       color: white;
       text-align: left;
       font-weight: bold;
-      font-size: 20px;
       position: relative;
       line-height: 200%; }
       .topo .conteudo #texto1 img {
@@ -801,7 +818,7 @@ footer {
       width: 350px; }
     .topo .conteudo #linha1 {
       position: relative;
-      top: 85%;
+      top: -15px;
       float: left; }
     .topo .conteudo #id-texto2 {
       width: 700px; }
@@ -815,7 +832,7 @@ footer {
       height: 350px;
       width: 350px;
       margin-left: 450px; 
-      margin-top: -450px;}
+      top: 300px;}
 .meio1 {
   height: 650px; }
   .meio1 .conteudo1 {
@@ -976,7 +993,7 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 330px) {
   .topo {
     background-position: -670px 0px !important;
-    height: 1150px !important; }
+    height: 1050px !important; }
     .topo .conteudo {
       width: 100%;
       padding-left: 0px;
@@ -986,32 +1003,30 @@ footer {
     .topo #id-texto2 {
       width: 100% !important; }
     .topo #main-cv {
-      width: 80vw;
-      max-width: 370px;
-      margin: 0 34px;
-      margin-top: -50px;
-      float: right;
-      display: block !important; }
+      display: none; }
     .topo p {
       text-align: justify !important;
       margin-left: 20px;
       margin-right: 20px; }
     .topo #texto1 {
-      margin-top: 60px;
-      font-size: 18px !important; }
+      margin-top: 60px; }
     .topo #texto2 {
-      margin-top: 200px;
+      margin-top: 130px;
       width: 89vw !important;
       font-size: 14px !important; }
     .topo #linha1 {
-      margin-top: 160px;
+      margin-top: 130px;
       float: none !important;
       margin-left: auto !important;
       margin-right: auto !important;
       display: block !important;
       position: relative !important;}
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top: -150px;
+      height: 180px;
+      width: 180px;
+      margin-left: 10px;}
   .meio1 {
     width: 100%;
     background: none; }
@@ -1135,10 +1150,10 @@ footer {
         .meio3 .conteudo21 .contdir .media-margins {
           display: block; }}
 
-@media screen and (min-width: 331px) and (max-width: 600px) {
+@media screen and (min-width: 331px) and (max-width: 463px) {
   .topo {
     background-position: -670px 0px !important;
-    height: 1100px !important; }
+    height: 1050px !important; }
     .topo .conteudo {
       width: 100%;
       padding-left: 0px;
@@ -1151,34 +1166,30 @@ footer {
     .topo #id-texto2 {
       width: 100% !important; }
     .topo #main-cv {
-      width: 80vw;
-      margin-top: -50px;
-      max-width: 370px;
-      float: none !important;
-      margin-left: auto !important;
-      margin-right: auto !important;
-      display: block !important;
-      position: relative !important; }
+      display: none; }
     .topo p {
       text-align: justify !important;
       margin-left: 20px;
       margin-right: 20px; }
     .topo #texto1 {
-      margin-top: 90px;
-      font-size: 18px !important; }
+      margin-top: 90px; }
     .topo #texto2 {
-      margin-top: 195px;
+      margin-top: 160px;
       width: 89vw !important;
       font-size: 14px !important; }
     .topo #linha1 {
       margin-top: 155px;
-      float: none !important;
-      margin-left: auto !important;
+      float: left !important;
+      margin-left: 20px !important;
       margin-right: auto !important;
       display: block !important;
       position: relative !important; }
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top: -150px;
+      height: 200px;
+      width: 200px;
+      margin-left: 10px;}
   .meio1 {
     width: 100%;
     background: none; }
@@ -1302,11 +1313,181 @@ footer {
         margin: 0px !important; }
         .meio3 .conteudo21 .contdir .media-margins {
           display: block; }}
+@media screen and (min-width: 464px) and (max-width: 600px) {
+  .topo {
+    background-position: -670px 0px !important;
+    height: 830px !important; }
+    .topo .conteudo {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px; }
+    .topo .media-margins {
+      width: 100%;
+      position: absolute; }
+    .topo #id-texto1 {
+      width: 100% !important; }
+    .topo #id-texto2 {
+      width: 100% !important; }
+    .topo #main-cv {
+      width: 80vw;
+      margin-top: -50px;
+      max-width: 250px;
+      float: left !important;
+      margin-left: 10px !important;
+      margin-right: auto !important;
+      display: block !important;
+      position: relative !important; }
+    .topo p {
+      text-align: justify !important;
+      margin-left: 20px;
+      margin-right: 20px; }
+    .topo #texto1 {
+      margin-top: 50px; }
+    .topo #texto2 {
+      margin-top: 100px;
+      width: 89vw !important;
+      font-size: 14px !important; }
+    .topo #linha1 {
+      margin-top: 95px;
+      float: left !important;
+      margin-left: 20px !important;
+      margin-right: auto !important;
+      display: block !important;
+      position: relative !important; }
+    .topo .conteudo .perfil {
+      position: relative;
+      top: -130px;
+      height: 150px;
+      width: 150px;
+      margin-left: 260px;}
+  .meio1 {
+    width: 100%;
+    background: none; }
+    .meio1 .conteudo1 {
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px; }
+      .meio1 .conteudo1 .titulo {
+        margin-top: 50px;
+        font-weight: lighter; }
+      .meio1 .conteudo1 #intro {
+        font-weight: lighter;
+        font-size: 16px;
+        line-height: 25px;
+        padding-left: 20px;
+        padding-right: 20px; }
+    .meio1 #icons {
+      width: 100%;
+      white-space: nowrap;
+      margin-top: 190px;
+      z-index: 1;}
+      .meio1 #icons li {
+        margin-left: 30px;
+        margin-right: 30px;}
+    .meio1 .conteudo2 {
+      display: block;
+      width: 100%;
+      padding-left: 0px;
+      padding-right: 0px; 
+      margin: 0 auto;
+      text-align: center;}
+      .meio1 .conteudo2 .imagepc {
+        display: none;}
+      .meio1 .conteudo2 .textopc {
+        position: relative;}
+      .meio1 .conteudo2 #textopc,#textopc2 {
+        margin-top: 280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 25px;}
+  .meio2 {
+    position: relative;
+    top: 50px;
+    display: block;
+    width: 100%;
+    height: 1600px !important;
+    background-position: 0px 800px;
+    background-repeat: no-repeat; }
+    .meio2 .conteudo11 {
+      width: 100% !important;
+      display: block;
+      position: absolute;
+      top: 10px; }
+      .meio2 .conteudo11 h1 {
+        position: relative;
+        bottom: 80px;
+        display: block;
+        padding-bottom: 30px;
+        margin-bottom: 500px !important; }
+    .meio2 .conteudo12 {
+      width: 100% !important;
+      display: block; }
+      .meio2 .conteudo12 .media-margins .bloco1 {
+        margin-top: 820px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        display: block; }
+      .meio2 .conteudo12 #lite {
+        position: relative;}
+      .meio2 .conteudo12 #pro {
+        position: relative;}
+      .meio2 .conteudo12 #premium {
+        position: relative;}
+      .meio2 .conteudo12 .media-margins .tipo {
+        display: block; }
+    .meio2 .conteudo13 {
+      width: 100% !important; }
+      .meio2 .conteudo13 a {
+        width: 80vw;
+        max-width: 320px;
+        padding: 20px 0px !important;
+        font-size: 16px !important; }
+  .meio3 {
+    position: relative;
+    top: -10px;
+    width: 100% !important;
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px; }
+    .meio3 .conteudo21 {
+      display: block;
+      width: 100% !important;
+      padding-left: 0px;
+      width: 100%;
+      margin-left: 0px;
+      margin-right: 0px; }
+      .meio3 .conteudo21 .contesq {
+        width: 100% !important; }
+        .meio3 .conteudo21 .contesq h1 {
+          padding-left: 20px;
+          width: 90vw;
+          position: relative;
+          bottom: 40px;
+          font-weight: lighter; }
+        .meio3 .conteudo21 .contesq p {
+          padding-left: 20px;
+          width: 90vw;
+          position: relative;
+          bottom: 40px; }
+      .meio3 .conteudo21 #other-pc {
+        display: none; }
+      .meio3 .conteudo21 .contdir {
+        position: relative;
+        top: 30px;
+        display: block;
+        width: 100% !important;
+        margin: 0px !important; }
+        .meio3 .conteudo21 .contdir .media-margins {
+          display: block; }}
 
 @media screen and (min-width: 601px) and (max-width: 727px) {
   .topo {
     background-position: -670px 0px !important;
-    height: 900px !important; }
+    height: 850px !important; }
     .topo .conteudo {
       width: 100%;
       padding-left: 0px;
@@ -1321,24 +1502,27 @@ footer {
     .topo #main-cv {
       width: 80vw;
       margin-left: 20px !important;
-      max-width: 370px;
+      max-width: 300px;
       margin-top: -50px;
       display: block; }
     .topo p {
       margin-left: 20px; }
     .topo #texto1 {
-      margin-top: 120px;
-      font-size: 18px !important; }
+      margin-top: 80px; }
     .topo #texto2 {
-      margin-top: 195px;
+      margin-top: 120px;
       width: 89vw !important;
       font-size: 16px !important; }
     .topo #linha1 {
-      margin-top: 155px;
+      margin-top: 120px;
       display: block;
       margin-left: 20px; }
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top:-130px;
+      height: 200px;
+      width: 200px;
+      margin-left: 350px;}
   .meio1 {
     width: 100%;
     background: none; }
@@ -1375,13 +1559,12 @@ footer {
       .meio1 .conteudo2 .textopc {
         position: relative;}
       .meio1 .conteudo2 #textopc,#textopc2 {
-        margin-top: 300px;
+        margin-top: 240px;
         padding-left: 20px;
         padding-right: 20px;
         line-height: 25px;}
   .meio2 {
     position: relative;
-    top: 150px;
     display: block;
     width: 100%;
     height: 1600px !important;
@@ -1422,7 +1605,7 @@ footer {
         font-size: 16px !important; }
   .meio3 {
     position: relative;
-    top: 90px;
+    top: -55px;
     width: 100% !important;
     display: block; }
     .meio3 .conteudo21 {
@@ -1477,10 +1660,9 @@ footer {
     .topo p {
       margin-left: 20px; }
     .topo #texto1 {
-      margin-top: 120px;
-      font-size: 18px !important; }
+      margin-top: 120px; }
     .topo #texto2 {
-      margin-top: 195px;
+      margin-top: 165px;
       width: 89vw !important;
       font-size: 16px !important; }
     .topo #linha1 {
@@ -1488,7 +1670,11 @@ footer {
       display: block;
       margin-left: 20px; }
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top: -120px;
+      height: 250px;
+      width: 250px;
+      margin-left: 400px;}
   .meio1 {
     width: 100%;
     background: none; }
@@ -1605,7 +1791,7 @@ footer {
 @media screen and (min-width: 931px) and (max-width: 1093px) {
   .topo {
     width: 100%;
-    height: 850px !important; }
+    height: 780px !important; }
     .topo .conteudo {
       width: 100%;
       padding-left: 0px;
@@ -1626,10 +1812,9 @@ footer {
     .topo p {
       margin-left: 20px; }
     .topo #texto1 {
-      margin-top: 120px;
-      font-size: 18px !important; }
+      margin-top: 120px; }
     .topo #texto2 {
-      margin-top: 195px;
+      margin-top: 175px;
       width: 89vw !important;
       font-size: 16px !important; }
     .topo #linha1 {
@@ -1637,7 +1822,11 @@ footer {
       display: block;
       margin-left: 20px; }
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top: -140px;
+      height: 300px;
+      width: 300px;
+      margin-left: 450px;}
   .meio1 {
     width: 100%;
     background: none; }
@@ -1749,7 +1938,7 @@ footer {
 @media screen and (min-width: 1094px) and (max-width: 1200px) {
   .topo {
     width: 100%;
-    height: 850px !important; }
+    height: 710px !important; }
     .topo .conteudo {
       width: 100%;
       padding-left: 0px;
@@ -1770,10 +1959,9 @@ footer {
     .topo p {
       margin-left: 20px; }
     .topo #texto1 {
-      margin-top: 120px;
-      font-size: 18px !important; }
+      margin-top: 120px; }
     .topo #texto2 {
-      margin-top: 195px;
+      margin-top: 175px;
       width: 89vw !important;
       font-size: 16px !important; }
     .topo #linha1 {
@@ -1781,7 +1969,11 @@ footer {
       display: block;
       margin-left: 20px; }
     .topo .conteudo .perfil {
-      display: none;}
+      position: relative;
+      top: -150px;
+      height: 300px;
+      width: 300px;
+      margin-left: 500px;}
   .meio1 {
     width: 100%;
     background: none; }

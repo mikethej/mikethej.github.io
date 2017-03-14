@@ -993,14 +993,7 @@ footer {
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-  /* Safari and Chrome */
-    .topo .conteudo .perfil {
-        margin-left: 750px;     
-     }
-    .meio2 .conteudo12 .bloco1::before {
-        margin-left: 111px;
-    }
-
+  
   /* Safari only override */
   ::i-block-chrome,.topo .conteudo .perfil {
         margin-left: 750px;     

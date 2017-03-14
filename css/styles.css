@@ -993,7 +993,6 @@ footer {
 
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-  
   /* Safari only override */
   ::i-block-chrome,.topo .conteudo .perfil {
         margin-left: 750px;     
